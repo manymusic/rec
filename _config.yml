@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: ManyMusic-Rec
+description: Progress documentation for ManyMusic-EXG recording
+version: 0.1.0
+baseurl: manymusic.net
+language: en
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
+url: https://manymusic.net/rec/
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  project-home: https://manymusic.net/
+ga_tracking: "G-CPHVGWTS9L"
+ga_tracking_anonymize_ip: true
