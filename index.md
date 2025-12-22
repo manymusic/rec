@@ -1,10 +1,10 @@
 ---
-title: Current progress
+title: 0. Current progress
 layout: home
 ---
 
 # Overview of the current progress
-Here, the current (22-Dec-2025 21:51:18 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (22-Dec-2025 21:54:48 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
