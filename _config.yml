@@ -4,6 +4,7 @@ version: 0.1.0
 baseurl: manymusic.net
 language: en
 theme: just-the-docs
+color_scheme: dark
 url: https://manymusic.net/rec/
 aux_links:
   project-home: https://manymusic.net/
