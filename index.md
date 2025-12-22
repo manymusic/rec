@@ -4,7 +4,7 @@ layout: home
 ---
 
 # Overview of the current progress
-Here, the current (22-Dec-2025 21:54:48 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (22-Dec-2025 22:08:30 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
@@ -15,4 +15,9 @@ Here, the current (22-Dec-2025 21:54:48 CE[S]T) progress of the EXG data acquisi
 
 ![recordings](figs/avg-isgood.png)
 <br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" cahnnels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
+
+## Average r^2 with movements
+
+![recordings](figs/grandvag-movr2.png)
+<br><small>Averaged zero-lad r^2 with movements. *acc?*: acceleration-X/Y/Z. *vel?*: velocity-X/Y/Z (i.e., the integration of acceleration). .</small>
 
