@@ -3,7 +3,7 @@ title: Current progress
 layout: home
 ---
 
-Here, the current (22-Dec-2025 14:13:50 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (22-Dec-2025 15:00:50 CE[S]T) progress of the EXG data acquisition is shared.
 ## Current recordings
 
 ![recordings](figs/run-prog.png)
