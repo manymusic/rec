@@ -3,8 +3,7 @@ title: Current progress
 layout: home
 ---
 
-Updated: 22-Dec-2025 13:50:03
-Here the current progress of the EXG data acquisition is shared.
+Here, the current (22-Dec-2025 14:01:07 CE[S]T) progress of the EXG data acquisition is shared.
 ## Current recordings
 
 ![recordings](figs/run-prog.png)
@@ -13,5 +12,5 @@ Here the current progress of the EXG data acquisition is shared.
 ## Average channel goodness percentages
 
 ![recordings](figs/avg-isgood.png)
-<br><small>EEG channels: "BAD" channels were identified by ASR. EXG channels: "BAD" cahnnels were identified by value ranges (and expected frequencies for RESP, PULSE).</small>
+<br><small>Percentage of "GOOD" channles are plotted. *EEG channels*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG channels*: "BAD" cahnnels were identified by value ranges (and expected frequencies for RESP, PULSE).</small>
 
