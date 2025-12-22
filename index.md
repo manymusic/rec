@@ -3,7 +3,9 @@ title: Current progress
 layout: home
 ---
 
-Here, the current (22-Dec-2025 17:57:18 CE[S]T) progress of the EXG data acquisition is shared.
+# Overview of the current progress
+Here, the current (22-Dec-2025 21:51:18 CE[S]T) progress of the EXG data acquisition is shared.
+
 ## Current recordings
 
 ![recordings](figs/run-prog.png)
@@ -14,6 +16,3 @@ Here, the current (22-Dec-2025 17:57:18 CE[S]T) progress of the EXG data acquisi
 ![recordings](figs/avg-isgood.png)
 <br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" cahnnels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
 
-### TODOs
-- [ ] See why FC1 FC2 were marked as bad by ASR.
-- [ ] See if FC1 FC2 can be improved by motion regression.
