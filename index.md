@@ -1,6 +1,6 @@
 ---
 title: Current progress
-layout:home
+layout: home
 ---
 
 Updated: 22-Dec-2025 12:32:26
