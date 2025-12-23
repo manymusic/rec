@@ -4,7 +4,7 @@ layout: home
 ---
 
 # Overview of the current progress
-Here, the current (23-Dec-2025 09:18:03 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (23-Dec-2025 10:02:50 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
