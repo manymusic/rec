@@ -1,6 +1,7 @@
 ---
-title: 1. avg-EEG-move r^2
-layout: home
+title: avg-EEG-move r^2
+layout: page
+nav_order: 2
 ---
 
 # Session-averaged corr^2 between EEG and movements

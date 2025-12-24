@@ -1,6 +1,7 @@
 ---
-title: 2. max-EEG-move r^2
-layout: home
+title: max-EEG-move r^2
+layout: page
+nav_order: 3
 ---
 
 # Session-max corr^2 between EEG and movements
