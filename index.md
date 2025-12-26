@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Overview of the current progress
-Here, the current (24-Dec-2025 18:59:40 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (26-Dec-2025 12:03:58 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
@@ -20,7 +20,7 @@ Here, the current (24-Dec-2025 18:59:40 CE[S]T) progress of the EXG data acquisi
 ## Average r^2 with movements
 
 ![recordings](figs/grandvag-movr2.png)
-<br><small>Averaged zero-lad r^2 with movements. *acc?*: acceleration-X/Y/Z. *vel?*: velocity-X/Y/Z (i.e., the integration of acceleration). .</small>
+<br><small>Averaged zero-lad r^2 with movements. *acc?*: acceleration-X/Y/Z. *vel?*: velocity-X/Y/Z (i.e., the integration of acceleration). </small>
 
 ## Session-averaged zero-lag correlation matrices
 ![corr-matrices](figs/corr-matrices.png)
