@@ -6,5 +6,4 @@ has_children: true
 ---
 
 # All ratings
-## Liking timeseries during listening
-## Overall ratings after listening
+Let's just plot everything!

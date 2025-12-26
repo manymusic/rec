@@ -1,10 +1,11 @@
 ---
-title: All ratings
+title: Overall ratings
 layout: page
 parent: All ratings
 nav_order: 2
 ---
 
+# Overall ratings after listening
 ## emotionality
 ![rating-01](figs/rating_emotionality.png)
 
