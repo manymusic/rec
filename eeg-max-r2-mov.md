@@ -1,7 +1,7 @@
 ---
-title: max-EEG-move r^2
+title: Max EEG-move-r^2
 layout: page
-nav_order: 3
+nav_order: 2
 parent: Artefact mapping
 ---
 

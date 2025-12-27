@@ -1,7 +1,7 @@
 ---
-title: avg-EEG-move r^2
+title: Avg EEG-move-r^2
 layout: page
-nav_order: 2
+nav_order: 1
 parent: Artefact mapping
 ---
 
