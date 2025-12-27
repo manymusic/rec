@@ -5,7 +5,7 @@ parent: All ratings
 nav_order: 1
 ---
 
-#Timeseries ratings of liking and disliking while listening
+# Timeseries ratings of liking and disliking while listening
 ## sub-01
 ![ratingtimeseries-sub01](figs/rating-timeseries-sub01.png)
 
