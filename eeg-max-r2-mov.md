@@ -5,7 +5,7 @@ nav_order: 2
 parent: Artefact mapping
 ---
 
-# Session-max corr^2 between EEG and movements
+# Session-max corr^2 between EEG and movements during music listening
 ![rsqaure-0001](figs/sub-01_ses-01_movr2max.png)
 
 ![rsqaure-0002](figs/sub-01_ses-02_movr2max.png)
