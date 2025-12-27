@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Overview of the current progress
-Here, the current (27-Dec-2025 13:24:59 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (27-Dec-2025 14:42:51 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
@@ -15,7 +15,8 @@ Here, the current (27-Dec-2025 13:24:59 CE[S]T) progress of the EXG data acquisi
 ## Overall emotional responses
 ![emo-ridge](figs/emo-ridges.png)
 
-<small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know)*jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>## Average channel goodness percentages
+<small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know)*jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>
+## Average channel goodness percentages
 
 ![recordings](figs/avg-isgood.png)
 <br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" cahnnels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
