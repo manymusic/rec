@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Overview of the current progress
-Here, the current (26-Dec-2025 12:03:58 CE[S]T) progress of the EXG data acquisition is shared.
+Here, the current (27-Dec-2025 12:15:18 CE[S]T) progress of the EXG data acquisition is shared.
 
 ## Current recordings
 
@@ -26,3 +26,7 @@ Here, the current (26-Dec-2025 12:03:58 CE[S]T) progress of the EXG data acquisi
 ![corr-matrices](figs/corr-matrices.png)
 
 <small>Zero-lag correlation matrices of EEG and EXG channels after detrending. *EEG*: 32 channels in the International 10-20 System. *EXG*: EOGv, EOGh, EXGs, EXGf, acc-X/Y/Z, vel-X/Y/Z. </small>
+## Overall emotional responses
+![emo-ridge](figs/emo-ridges.png)
+
+<small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know)*jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>

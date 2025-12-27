@@ -2,6 +2,7 @@
 title: max-EEG-move r^2
 layout: page
 nav_order: 3
+parent: Artefact mapping
 ---
 
 # Session-max corr^2 between EEG and movements

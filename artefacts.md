@@ -1,7 +1,8 @@
 ---
 title: Artefact mapping
 layout: page
-nav_order: 4
+nav_order: 2
+has_children: true
 ---
 
 # Artefact mapping

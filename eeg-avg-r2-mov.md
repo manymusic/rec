@@ -2,6 +2,7 @@
 title: avg-EEG-move r^2
 layout: page
 nav_order: 2
+parent: Artefact mapping
 ---
 
 # Session-averaged corr^2 between EEG and movements
