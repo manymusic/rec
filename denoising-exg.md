@@ -6,5 +6,5 @@ has_children: true
 ---
 
 # Regressing EXG out from EEG
-Is it a good idea?:thinking-emoji:
+Is it a good idea? 🤔
 
