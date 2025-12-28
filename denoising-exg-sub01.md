@@ -56,6 +56,9 @@ parent: Regressing EXG out
 ### sub-01_ses-02_run-04
 ![figs/denoising-exg/sub-01_ses02_run04.png](figs/denoising-exg/sub-01_ses02_run04.png)
 
+### sub-01_ses-02_run-04
+![figs/denoising-exg/sub-01_ses02_run04.png](figs/denoising-exg/sub-01_ses02_run04.png)
+
 ### sub-01_ses-02_run-05
 ![figs/denoising-exg/sub-01_ses02_run05.png](figs/denoising-exg/sub-01_ses02_run05.png)
 
