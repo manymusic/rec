@@ -5,6 +5,7 @@ baseurl: manymusic.net
 language: en
 theme: just-the-docs
 color_scheme: dark
+math: katex
 url: https://manymusic.net/rec/
 aux_links:
   project-home: https://manymusic.net/
