@@ -1,7 +1,7 @@
 ---
 title: Bohemian reliability
 layout: page
-nav_order: 5
+nav_order: 1
 ---
 
 # Reliability check using Bohemian Rhapsody

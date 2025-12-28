@@ -1,7 +1,7 @@
 ---
 title: Current progress
 layout: home
-nav_order: 1
+nav_order: 0
 ---
 
 # Overview of the current progress
