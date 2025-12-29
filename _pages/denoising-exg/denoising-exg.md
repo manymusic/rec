@@ -27,7 +27,7 @@ where $\mathbf{y}^{[i]}$ is the timeseries of the $i$-th EEG channel, $\mathbf{b
 where **Y** is a matrix of the EEG channels' timeseries, **B** is a coefficient matrix, **X** is a matrix of the EXG channels including an intercept, and **E** is a matrix of the residuals.
 The residuals were then used as the *"denoised"* EEG signals.
 
-[sub-01]: denoising-exg-sub01.md
-[sub-03]: denoising-exg-sub03.md
+[sub-01]: denoising-exg-sub01.html
+[sub-03]: denoising-exg-sub03.html
 [Goncharova+.2003]: https://doi.org/10.1016/S1388-2457(03)00093-2
 [Ma+.2012]: https://doi.org/10.1016/j.clinph.2011.11.083 
