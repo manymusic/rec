@@ -23,7 +23,7 @@ Here, I summarize the preprocessing steps implemented in `musafx-exg/maexg_prep(
 
 The band-pass cutoffs (1-100 Hz) in step 1 were chosen to be consistent with the IC-Label training data filtering ([Pion-Tonachini+.2019](https://doi.org/10.1016/j.neuroimage.2019.05.026)).
 
-The details of step 2 (regressing out EXG channels) are described in [Regressing EXG out from EEG](denoising-exg.md).
+The details of step 2 (regressing out EXG channels) are described in [Regressing EXG out from EEG](denoising-exg.html).
 
 The step 7 (ICA cooking) is actually a semi-automatic procedure. EEGLAB's IC-Label provides the probability of each IC belonging to each of the seven classes (Brain, Muscle, Eye, Heart, Line Noise, Channel Noise, Other), but its performance may vary depending on the dataset. Even in the original paper ([Pion-Tonachini+.2019](https://doi.org/10.1016/j.neuroimage.2019.05.026)), the accuracy for Muscle ICs was only about 80% but other classes were below 60%. Therefore, it is still recommended to manually inspect the ICs (topography, power spectrum, and timeseries) before removing them.
 
