@@ -6,6 +6,7 @@ has_children: true
 ---
 
 # Denoising using EEGLAB
+Updated: 2025-12-29
 
 ICA-denoising is a half-art, half-science procedure.
 There is no single best practice that works for all datasets. As we always do, we have to cook it ourselves, adjusting the recipe according to the ingredients at hand in the "ICA kitchen".

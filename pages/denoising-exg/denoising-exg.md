@@ -6,6 +6,8 @@ has_children: true
 ---
 
 # Regressing EXG out from EEG
+Updated: 2025-12-29
+
 Because of the proximity to the EEG electrodes, the frontalis and temporalis muscles generate strong electromyographic (EMG) artefacts in EEG recordings. 
 Their spectral and topographical characteristics in EEG recordings are well-documented in [Goncharova+.2003] as:
 
