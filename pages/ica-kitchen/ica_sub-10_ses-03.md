@@ -20,14 +20,3 @@ parent: ica_sub-10
 ![figs/sub-10_ses03_run-04.png](figs/sub-10_ses03_run-04.png)
 
 ## sub-10_ses-03_run-05
-![figs/sub-10_ses03_run-05.png](figs/sub-10_ses03_run-05.png)
-
-## sub-10_ses-03_run-07
-![figs/sub-10_ses03_run-07.png](figs/sub-10_ses03_run-07.png)
-
-## sub-10_ses-03_run-08
-![figs/sub-10_ses03_run-08.png](figs/sub-10_ses03_run-08.png)
-
-## sub-10_ses-03_run-09
-![figs/sub-10_ses03_run-09.png](figs/sub-10_ses03_run-09.png)
-
