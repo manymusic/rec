@@ -6,3 +6,6 @@ parent: Resting EEG
 ---
 
 # Spectral density
+## Resting runs in session 03
+![figs/powspec-ses03.png](figs/powspec-ses03.png)
+
