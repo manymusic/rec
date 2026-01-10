@@ -20,7 +20,8 @@ Here, I summarize the preprocessing steps implemented in `musafx-exg/maexg_prep(
 5. **Re-reference**: Re-referencing to the common average reference using `EEGLAB/pop_reref()`.
 6. **IC-Label**: Running ICA using `EEGLAB/pop_runica()` in EEGLAB (extended Infomax).
 7. **ICA cooking**: Identifying artifact ICs using `EEGLAB/iclabel()` plugin in EEGLAB.
-8. **Bad IC removal**: Removing the artifact ICs and reconstructing the EEG using `EEGLAB/pop_subcomp()`.
+8. **Line noise removal**: Removing line noise using `EEGLAB/pop_cleanline()`. 
+9. **Bad IC removal**: Removing the artifact ICs and reconstructing the EEG using `EEGLAB/pop_subcomp()`.
 
 The band-pass cutoffs (1-100 Hz) in step 1 were chosen to be consistent with the IC-Label training data filtering ([Pion-Tonachini+.2019](https://doi.org/10.1016/j.neuroimage.2019.05.026)).
 
