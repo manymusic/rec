@@ -9,6 +9,6 @@ has_children: true
 (after preprocessing)
 - [X] Covariance
 - [X] Power analysis
-- [ ] Microstate analysis
-- [ ] Dynamic connectivity analysis
+- [X] Microstate analysis
 - [X] Comparison with music listening
+- [ ] Dynamic connectivity analysis
