@@ -6,9 +6,11 @@ has_children: true
 ---
 
 # Resting-state EEG
+(after preprocessing)
+- [X] Covariance
 - [ ] Power analysis
+- [ ] After cleaning
 - [ ] Microstate analysis
 - [ ] Connectivity analysis
-# Resting-state EEG
 - [ ] Dynamic connectivity analysis
-- [ ] Comaprison with music listening
+- [ ] Comparison with music listening
