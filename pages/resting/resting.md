@@ -11,4 +11,3 @@ has_children: true
 - [X] Power analysis
 - [X] Microstate analysis
 - [X] Comparison with music listening
-- [ ] Dynamic connectivity analysis
