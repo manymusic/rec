@@ -7,44 +7,44 @@ nav_order: 2
 
 # Overall ratings after listening
 ## emotionality
-![rating-01](rating_emotionality.png)
+![rating-01](figs/rating_emotionality.png)
 
 ## absorption
-![rating-02](rating_absorption.png)
+![rating-02](figs/rating_absorption.png)
 
 ## enjoyment-liking
-![rating-03](rating_enjoyment-liking.png)
+![rating-03](figs/rating_enjoyment-liking.png)
 
 ## goosebump-tears
-![rating-04](rating_goosebump-tears.png)
+![rating-04](figs/rating_goosebump-tears.png)
 
 ## style-familiarity
-![rating-05](rating_style-familiarity.png)
+![rating-05](figs/rating_style-familiarity.png)
 
 ## wonder
-![rating-06](rating_wonder.png)
+![rating-06](figs/rating_wonder.png)
 
 ## transcendence
-![rating-07](rating_transcendence.png)
+![rating-07](figs/rating_transcendence.png)
 
 ## power
-![rating-08](rating_power.png)
+![rating-08](figs/rating_power.png)
 
 ## tenderness
-![rating-09](rating_tenderness.png)
+![rating-09](figs/rating_tenderness.png)
 
 ## nostalia
-![rating-10](rating_nostalia.png)
+![rating-10](figs/rating_nostalia.png)
 
 ## peacefulness
-![rating-11](rating_peacefulness.png)
+![rating-11](figs/rating_peacefulness.png)
 
 ## joyful-activation
-![rating-12](rating_joyful-activation.png)
+![rating-12](figs/rating_joyful-activation.png)
 
 ## sadness
-![rating-13](rating_sadness.png)
+![rating-13](figs/rating_sadness.png)
 
 ## tension
-![rating-14](rating_tension.png)
+![rating-14](figs/rating_tension.png)
 
