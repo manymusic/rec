@@ -5,7 +5,6 @@ nav_order: 4
 has_children: true
 ---
 
-# Effects of PANAS
-# Effects of "self-selected favorite"
-# Effects of sessions
-# Effects of subjects
+# PANAS structures
+![panas-pc1](figs/panas-pc1.png)
+
