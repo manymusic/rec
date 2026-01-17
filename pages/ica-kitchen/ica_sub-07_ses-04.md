@@ -23,3 +23,14 @@ parent: ica_sub-07
 ![figs/sub-07_ses04_run-05.png](figs/sub-07_ses04_run-05.png)
 
 ## sub-07_ses-04_run-06
+![figs/sub-07_ses04_run-06.png](figs/sub-07_ses04_run-06.png)
+
+## sub-07_ses-04_run-07
+![figs/sub-07_ses04_run-07.png](figs/sub-07_ses04_run-07.png)
+
+## sub-07_ses-04_run-08
+![figs/sub-07_ses04_run-08.png](figs/sub-07_ses04_run-08.png)
+
+## sub-07_ses-04_run-09
+![figs/sub-07_ses04_run-09.png](figs/sub-07_ses04_run-09.png)
+
