@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (19-Jan-2026 20:10:01 CE[S]T) progress of the EXG data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (19-Jan-2026 22:05:42 CE[S]T) progress of the EXG data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current recordings
 
@@ -20,6 +20,12 @@ Here, the current (19-Jan-2026 20:10:01 CE[S]T) progress of the EXG data acquisi
 
 ![recordings](figs/avg-isgood.png)
 <br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" cahnnels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
+
+
+## Channel goodness per session
+
+![isgood](figs/avg-isgood-sess.png)
+<br><small> *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS().</small>
 
 ## Average r^2 with movements
 

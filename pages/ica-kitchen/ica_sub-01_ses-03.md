@@ -25,9 +25,6 @@ parent: ica_sub-01
 ## sub-01_ses-03_run-06
 ![figs/sub-01_ses03_run-06.png](figs/sub-01_ses03_run-06.png)
 
-## sub-01_ses-03_run-07
-![figs/sub-01_ses03_run-07.png](figs/sub-01_ses03_run-07.png)
-
 ## sub-01_ses-03_run-08
 ![figs/sub-01_ses03_run-08.png](figs/sub-01_ses03_run-08.png)
 
