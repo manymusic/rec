@@ -52,3 +52,5 @@ parent: Artefact mapping
 
 ![rsqaure-0023](figs/sub-10_ses-03_movr2.png)
 
+![rsqaure-0024](figs/sub-10_ses-04_movr2.png)
+
