@@ -6,22 +6,23 @@ has_children: true
 ---
 
 # Denoising using EEGLAB
-Updated: 2025-12-29
+Updated: 2026-01-20
 
 ICA-denoising is a half-art, half-science procedure.
 There is no single best practice that works for all datasets. As we always do, we have to cook it ourselves, adjusting the recipe according to the ingredients at hand in the "ICA kitchen".
 
 Here, I summarize the preprocessing steps implemented in `musafx-exg/maexg_prep()` function in our analysis pipeline, which prepares the EEG data for ICA denoising using custom functions and EEGLAB (v2025.0):
 
-1. **Filtering**: Band-pass filtering (1-100 Hz) using `EEGLAB/pop_eegfiltnew()`.
-2. **EXG-GLM**: Regressing out the EXG channels (EOGv, EOGh, EMGs, EMGf, ACC_X, ACC_Y, ACC_Z, VEL_X, VEL_Y, VEL_Z) from the EEG channels using a general linear model.
-3. **Downsampling**: Downsampling to 250 Hz using `EEGLAB/pop_resample()`.
-4. **Clean raw data**: Cleaning the raw data using `EEGLAB/clean_artifacts()` and interporating removed channels using spherical interpoation using `EEGLAB/eeg_interp()`.
-5. **Re-reference**: Re-referencing to the common average reference using `EEGLAB/pop_reref()`.
-6. **IC-Label**: Running ICA using `EEGLAB/pop_runica()` in EEGLAB (extended Infomax).
-7. **ICA cooking**: Identifying artifact ICs using `EEGLAB/iclabel()` plugin in EEGLAB.
-8. **Line noise removal**: Removing line noise using `EEGLAB/pop_cleanline()`. 
-9. **Bad IC removal**: Removing the artifact ICs and reconstructing the EEG using `EEGLAB/pop_subcomp()`.
+1. **Line noise removal**: Removing line noise using `EEGLAB/pop_cleanline()`. 
+2. **Cropping**: Cropping the whole session data between the sound onset and offset using `EEGLAB/pop_select()`.
+3. **Filtering**: Band-pass filtering (1-100 Hz) using `EEGLAB/pop_eegfiltnew()`.
+4. **EXG-GLM**: Regressing out the EXG channels (EOGv, EOGh, EMGs, EMGf, ACC_X, ACC_Y, ACC_Z, VEL_X, VEL_Y, VEL_Z) from the EEG channels using a general linear model.
+5. **Downsampling**: Downsampling to 250 Hz using `EEGLAB/pop_resample()`.
+6. **Clean raw data**: Cleaning the raw data using `EEGLAB/clean_artifacts()` and interporating removed channels using spherical interpoation using `EEGLAB/eeg_interp()`.
+7. **Re-reference**: Re-referencing to the common average reference using `EEGLAB/pop_reref()`.
+8. **IC-Label**: Running ICA using `EEGLAB/pop_runica()` in EEGLAB (extended Infomax).
+9. **ICA cooking**: Identifying artifact ICs using `EEGLAB/iclabel()` plugin in EEGLAB.
+10. **Bad IC removal**: Removing the artifact ICs and reconstructing the EEG using `EEGLAB/pop_subcomp()`.
 
 The band-pass cutoffs (1-100 Hz) in step 1 were chosen to be consistent with the IC-Label training data filtering ([Pion-Tonachini+.2019](https://doi.org/10.1016/j.neuroimage.2019.05.026)).
 
