@@ -40,7 +40,7 @@ It seems that the battery chargers at the EEGLAB1 lab were not fully functional,
 Use the additional charger (one with the blue LED display) to charge more than 4 batteries at once.
 
 
-## Why does the ARS flag FC1/2 as BAD in some participants, consistently across sessions?
+## Why does the ARS flag FC1/2 as BAD in some participants, consistently across sessions? 😵
 Updated: 2026-01-21
 
 We observed that the ARS function in EEGLAB's CLEAN_ARTIFACTS() often flagged FC1 and FC2 channels as BAD in some participants, consistently across sessions (i.e., sub-07, sub-10; see [Channel-goodness-per-session]). Since the central electrodes (`*C`, `*Z`) are critical in observing auditory cortical responses, we investigated what caused such a classification by the ASR.
@@ -69,7 +69,7 @@ Let's look at the actual data.
 
 <small>**LEFT**: Sub-10, **RIGHT**: Sub-09; Blue=raw, Red=cleaned</small>
 
-From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This maybe due to bridge, but the eBridge algorithm ([Alschuler+2014]) did not detect any bridged electrodes.
+- From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This maybe due to bridge, but the eBridge algorithm ([Alschuler+2014]) did not detect any bridged electrodes.
 
 
 
