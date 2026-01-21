@@ -8,6 +8,8 @@ has_children: true
 # Regressing EXG out from EEG
 Updated: 2025-12-29
 
+## Do we see temporal gamma from T7/T8 or just muscle artefacts?
+
 Because of the proximity to the EEG electrodes, the frontalis and temporalis muscles generate strong electromyographic (EMG) artefacts in EEG recordings. 
 Their spectral and topographical characteristics in EEG recordings are well-documented in [Goncharova+.2003] as:
 
@@ -29,6 +31,8 @@ where $\mathbf{y}^{[i]}$ is the timeseries of the $i$-th EEG channel, $\mathbf{b
 where **Y** is a matrix of the EEG channels' timeseries, **B** is a coefficient matrix, **X** is a matrix of the EXG channels including an intercept, and **E** is a matrix of the residuals.
 The residuals were then used as the *"denoised"* EEG signals.
 
+
+---
 [sub-01]: denoising-exg-sub01.html
 [sub-03]: denoising-exg-sub03.html
 [Goncharova+.2003]: https://doi.org/10.1016/S1388-2457(03)00093-2
