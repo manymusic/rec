@@ -14,14 +14,18 @@ But in other cases, I was playing tracks at a wrong sampling rate. Some tracks w
 
 But! I made a mistake when resampling the tracks. In my memory, the syntax was like this:
 ```matlab
-x_new = resample(x_old, fs_old, fs_new);
+x_new = resample(x_old, fs_old, fs_new);  % oops
 ```
 
 But in fact, the correct syntax is:
 ```matlab
-x_new = resample(x_old, fs_new, fs_old);
+x_new = resample(x_old, fs_new, fs_old);  % correct
 ```
-Because what it actually does is to resample the signal at the p/q times the original sampling rate in `x_new = resample(x_old, p, q)`. So, `p/q*fs_old = fs_new/fs_old*fs_old = fs_new`.
+Because what it actually does is to resample the signal at the p/q times the original sampling rate in 
+```matlab
+x_new = resample(x_old, p, q)
+```
+So, `p/q*fs_old = fs_new/fs_old*fs_old = fs_new`.
 
 Thus, it could have been playing a bit slower than the original, but because of the bug, it was actually played even more slowly because it was then resampled at 48/44.1*48 = 52.24 kHz. 🙃
 
