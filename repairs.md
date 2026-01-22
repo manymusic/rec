@@ -67,22 +67,36 @@ Perhaps the electrodes FC1 and FC2 were faulty?
 > [Alschuler+2014] proposed a method to identify bridged electrodes by looking at the correlation between channels. However, in our case, we do not see high correlations between FC1 and FC2 or with other channels. So, it is unlikely that the electrodes are bridged. 🤷
 
 **Too little?** Are we using too little gel on these electrodes, causing high impedance and noisy signals?
+> Not really, because we make sure all impedances are below 25 kOhm before starting the recording. Mid-run checking of impedances also shows that these electrodes are within acceptable ranges.
 
 ### Because of the head shapes?💀
 
 Could it be that their head shapes cause poor contact of those electrodes? Does the cap fit them poorly around those electrodes?
+> I tightend the cap so that those channels 
 
-### To cut the wild goose chase short🪿
-Let's look at the actual data.
+pushed down the cap more firmly around those electrodes for these participants, but it did not help. So, it is unlikely that the head shape is the cause.
+
+### To cut this wild goose chase short🪿
+By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at the raw data.
 
 
-|Noisy subject|Normal subject|
+|Noisy subject|Better subject|
 |:--:|:--:|
 |<img src="figs/example-raw-sub10.png" width=300px>|<img src="figs/example-raw-sub09.png" width=300px>|
-
 <small>Blue=raw, Red=cleaned</small>
 
-- From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This maybe due to bridge, but the eBridge algorithm ([Alschuler+2014]) did not detect any bridged electrodes.
+- From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This may simply reflect their proximity to the reference (i.e., FCz), rather than any abnormality like bridging or poor contact. 
+- At least in these segments, FC1/2 look more or less similar in both subjects. Then, why was it flagged as BAD in one subject but not the other? 
+- After high-pass filtering (e.g,. >0.5 Hz), `EEGLAB/clean_artifacts()` calls another function `EEGLAB/clean_channels()`, which computes n-1 correlations between one channel and the average of all other channels for each segment (e.g., 50 samples). If a channel has a lower correlation than a threshold (default: 0.85), it is marked as BAD for that segment. If the fraction of BAD segments over the whole data exceeds another threshold (default: 0.5), the channel is marked as BAD overall. This is to discard flatlined channels based on the assumption that all normal EEG channels are strongly correlated to each other.
+- Another criterion that `EEGLAB/clean_channels()` uses is the relative strength of the line noise power (40-50 Hz) 
+
+
+
+is the channel's standard deviation (SD). If a channel's SD is too high or too low compared to other channels, it is marked as BAD. 
+
+In our case, FC1/2 may have lower SDs compared to other channels, leading to their classification as BAD. 
+
+
 
 
 
