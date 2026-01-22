@@ -35,10 +35,10 @@ Thus, it could have been playing a bit slower than the original, but because of 
 
 > This bug caused 3 tracks to be played incorrectly, and those tracks were redone in later sessions.
 
-## Memory leakage of a third-party program used for Windows control💾🩸
+## Memory leakage of a third-party program used for Windows volume control💾🩸
 Updated: 2026-01-15
 
-During the data collection sessions on Windows, I called a third-party program called "nircmd" to control the audio volume and playback, at the beginning of each run. However, I noticed that over time, it somehow led to audio playback performance issues (i.e., interupted audio) after several runs. After investigating, I found that each time I called "nircmd", it created a new process in the background, and those processes accumulated over time, leading to memory leakage.
+During the data collection sessions on Windows, I called a third-party program called "nircmd" to control the Windows system audio volume, at the beginning of each run. However, I noticed that over time, it somehow led to audio playback performance issues (i.e., interupted audio) after several runs. After investigating, I found that each time I called "nircmd", it created a new process in the background, and those processes accumulated over time, leading to memory leakage.
 
 > This issue impacted 2 runs of one session, which were re-done. I changed the script to call "nircmd" only once at the beginning of the session, instead of at the beginning of each run.
 
