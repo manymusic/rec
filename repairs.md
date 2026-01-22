@@ -88,17 +88,9 @@ By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at t
 - From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This may simply reflect their proximity to the reference (i.e., FCz), rather than any abnormality like bridging or poor contact. 
 - At least in these segments, FC1/2 look more or less similar in both subjects. Then, why was it flagged as BAD in one subject but not the other? 
 - After high-pass filtering (e.g,. >0.5 Hz), `EEGLAB/clean_artifacts()` calls another function `EEGLAB/clean_channels()`, which computes n-1 correlations between one channel and the average of all other channels for each segment (e.g., 50 samples). If a channel has a lower correlation than a threshold (default: 0.85), it is marked as BAD for that segment. If the fraction of BAD segments over the whole data exceeds another threshold (default: 0.5), the channel is marked as BAD overall. This is to discard flatlined channels based on the assumption that all normal EEG channels are strongly correlated to each other.
-- Another criterion that `EEGLAB/clean_channels()` uses is the relative strength of the line noise power (40-50 Hz) 
-
-
-
-is the channel's standard deviation (SD). If a channel's SD is too high or too low compared to other channels, it is marked as BAD. 
-
-In our case, FC1/2 may have lower SDs compared to other channels, leading to their classification as BAD. 
-
-
-
-
+- Another criterion that `EEGLAB/clean_channels()` uses is the relative strength of the line noise power, which was simply estimated from a fixed bandwidth (>50 Hz).
+- In our case, the BAD channels (FC1/2) did not show low correlations with other channles (i.e., not flatline), but they had abnormally high line noise (> 5 SDs).
+- This is surprising because the line noise should have been removed in the first preprocessing step using `EEGLAB/pop_cleanline()`. However, it seems that in some participants, the line noise was not fully removed, possibly due to their head shapes or environmental factors. This residual line noise then caused FC1/2 to be flagged as BAD by ASR.
 
 
 ---
