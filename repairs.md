@@ -81,7 +81,7 @@ By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at t
 
 
 | Noisy subject | Better subject |
-| -- | -- |
+|:--|:--|
 | <img src="figs/example-raw-sub10.png" width=300px> | <img src="figs/example-raw-sub09.png" width=300px> |
 <small>Blue=raw, Red=cleaned</small>
 
