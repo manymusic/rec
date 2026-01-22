@@ -5,14 +5,18 @@ nav_order: 10
 ---
 # Repair-on-the-fly🛠️✈️
 
+I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you replace every single part of a ship, is it still the same ship?* And I want to take it to the next level. *If you replace every single part of a ship during the sailing, is it still the same ship?* What about an airplane? *If you replace every single part of an airplane during the flight, is it still the same airplane?* 🤔
+
+In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
+
 ## Why did some tracks abruptly stop during replay?🎤🙀
 Updated: 2026-01-07
 
 In fact, some of the MTG-Jamendo tracks were cropped incorrectly at the source (i.e., Jamendo). Those tracks are not available online anymore, but the faulty versions were included in the MTG-Jamendo dataset we used.
 
-But in other cases, I was playing tracks at a wrong sampling rate. Some tracks were at 44.1 kHz, others at 48 kHz. But cleverly, when I loaded tracks at 48 kHz into MATLAB, they were meant to be resampled to 44.1 kHz.
+But in other cases, I was playing tracks at a wrong sampling rate. Some tracks were at 44.1 kHz, others at 48 kHz. As a one who writes robust code🧐, I wrote my script to resample the audio tracks to 44.1 kHz before playback.
 
-But! I made a mistake when resampling the tracks. In my memory, the syntax was like this:
+However, I made a mistake when resampling the tracks. In my memory, the syntax was like this:
 ```matlab
 x_new = resample(x_old, fs_old, fs_new);  % oops
 ```
@@ -29,15 +33,22 @@ So, `p/q*fs_old = fs_new/fs_old*fs_old = fs_new`.
 
 Thus, it could have been playing a bit slower than the original, but because of the bug, it was actually played even more slowly because it was then resampled at 48/44.1*48 = 52.24 kHz. 🙃
 
-This bug caused 3 tracks to be played incorrectly, and those tracks were redone in later sessions.
+> This bug caused 3 tracks to be played incorrectly, and those tracks were redone in later sessions.
+
+## Memory leakage of a third-party program used for Windows control💾🩸
+Updated: 2026-01-15
+
+During the data collection sessions on Windows, I called a third-party program called "nircmd" to control the audio volume and playback, at the beginning of each run. However, I noticed that over time, it somehow led to audio playback performance issues (i.e., interupted audio) after several runs. After investigating, I found that each time I called "nircmd", it created a new process in the background, and those processes accumulated over time, leading to memory leakage.
+
+> This issue impacted 2 runs of one session, which were re-done. I changed the script to call "nircmd" only once at the beginning of the session, instead of at the beginning of each run.
 
 
 ## Why the batteris of the StimTrak ran out so quickly?🪫
 Updated: 2026-01-21
 
-It seems that the battery chargers at the EEGLAB1 lab were not fully functional, causing the StimTrak batteries to be not fully charged before use. Users must put only one battery in a single deck charger slot, not two batteries in one slot. Putting two batteries in one slot can cause incomplete charging of both batteries.
+It seems that the battery chargers at the EEGLAB1 lab were not fully functional, causing the StimTrak batteries to be not fully charged before use. One must put only one battery in a single deck charger slot, not two batteries in one slot. Putting two batteries in one slot can cause incomplete charging of both batteries. Use the additional charger (one with the blue LED display) to charge more than 4 batteries at once.
 
-Use the additional charger (one with the blue LED display) to charge more than 4 batteries at once.
+> This issue was discovered when the StimTrak batteries ran out quickly during data collection in 3 runs. Because it doesn't affect the data quality, the data collection continued after replacing the batteries with fully charged ones.
 
 
 ## Why does the ARS flag FC1/2 as BAD in some participants, consistently across sessions? 😵
@@ -64,10 +75,12 @@ Could it be that their head shapes cause poor contact of those electrodes? Does 
 ### To cut the wild goose chase short🪿
 Let's look at the actual data.
 
-|![raw-sub10](figs/example-raw-sub10.png)|![raw-sub09](figs/example-raw-sub09.png)|
-|:--:|:--:|
 
-<small>**LEFT**: Sub-10, **RIGHT**: Sub-09; Blue=raw, Red=cleaned</small>
+|Noisy subject|Normal subject|
+|:--:|:--:|
+|<img src="figs/example-raw-sub10.png" width=300px>|<img src="figs/example-raw-sub09.png" width=300px>|
+
+<small>Blue=raw, Red=cleaned</small>
 
 - From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This maybe due to bridge, but the eBridge algorithm ([Alschuler+2014]) did not detect any bridged electrodes.
 
