@@ -74,7 +74,6 @@ Perhaps the electrodes FC1 and FC2 were faulty?
 Could it be that their head shapes cause poor contact of those electrodes? Does the cap fit them poorly around those electrodes?
 > I tightend the cap so that those channels can have better contact (sub-07_ses-05), and they actually got better?! 😳
 
-pushed down the cap more firmly around those electrodes for these participants, but it did not help. So, it is unlikely that the head shape is the cause.
 
 ### To cut this wild goose chase short🪿
 By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at the raw data.
