@@ -90,7 +90,7 @@ By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at t
 - In our case, the BAD channels (FC1/2) did not show low correlations with other channles (i.e., not flatline), but they had abnormally high line noise (> 5 SDs).
 - This is surprising because the line noise should have been removed in the first preprocessing step using `EEGLAB/pop_cleanline()`. However, it seems that in some participants, the line noise was not fully removed, possibly due to their head shapes and the cap fitting. This residual line noise then caused FC1/2 to be flagged as BAD by ASR.
 
-> To mitigate this issue, I adjusted the line noise threshold in `EEGLAB/clean_channels()` from the default 4 SDs to 8 SDs for these participants, allowing FC1/2 to be retained for further analysis. This adjustment was made only for the affected participants, ensuring that the integrity of the data is maintained while addressing the specific issue at hand. (OR ELSE? IS THIS REALLY A GOOD IDEA?)
+> To mitigate this issue, I adjusted the line noise threshold in `EEGLAB/clean_channels()` from the default 4 SDs to 8 SDs for these participants, allowing FC1/2 to be retained for further analysis. This adjustment was made only for the affected participants, ensuring that the integrity of the data is maintained while addressing the specific issue at hand. (OR SHOULD I DO CONSISTENTLY ACROSS ALL PARTICIPANTS? WHY?)
 
 ---
 
