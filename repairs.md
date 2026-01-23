@@ -81,7 +81,7 @@ By the way, what does it mean that the ASR detects FC1/2 as BAD? Let's look at t
 
 <img src="figs/example-raw-sub10.png" width=200px>  <img src="figs/example-raw-sub09.png" width=200px>
 
-<small>Blue=raw, Red=cleaned</small>
+<small>Red=raw, Blue=cleaned</small>
 
 - From these segments, the amplitudes of FC1 and FC2 are low in both subjects. This may simply reflect their proximity to the reference (i.e., FCz), rather than any abnormality like bridging or poor contact. 
 - At least in these segments, FC1/2 look more or less similar in both subjects. Then, why was it flagged as BAD in one subject but not the other? 
