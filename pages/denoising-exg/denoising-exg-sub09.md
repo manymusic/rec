@@ -142,3 +142,37 @@ parent: Regressing EXG out
 ### sub-09_ses-04_run-13
 ![figs/sub-09_ses04_run13.png](figs/sub-09_ses04_run13.png)
 
+## sub-09_ses-05
+### sub-09_ses-05_run-01
+![figs/sub-09_ses05_run01.png](figs/sub-09_ses05_run01.png)
+
+### sub-09_ses-05_run-02
+![figs/sub-09_ses05_run02.png](figs/sub-09_ses05_run02.png)
+
+### sub-09_ses-05_run-03
+![figs/sub-09_ses05_run03.png](figs/sub-09_ses05_run03.png)
+
+### sub-09_ses-05_run-04
+![figs/sub-09_ses05_run04.png](figs/sub-09_ses05_run04.png)
+
+### sub-09_ses-05_run-05
+![figs/sub-09_ses05_run05.png](figs/sub-09_ses05_run05.png)
+
+### sub-09_ses-05_run-06
+![figs/sub-09_ses05_run06.png](figs/sub-09_ses05_run06.png)
+
+### sub-09_ses-05_run-07
+![figs/sub-09_ses05_run07.png](figs/sub-09_ses05_run07.png)
+
+### sub-09_ses-05_run-08
+![figs/sub-09_ses05_run08.png](figs/sub-09_ses05_run08.png)
+
+### sub-09_ses-05_run-09
+![figs/sub-09_ses05_run09.png](figs/sub-09_ses05_run09.png)
+
+### sub-09_ses-05_run-10
+![figs/sub-09_ses05_run10.png](figs/sub-09_ses05_run10.png)
+
+### sub-09_ses-05_run-11
+![figs/sub-09_ses05_run11.png](figs/sub-09_ses05_run11.png)
+
