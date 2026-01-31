@@ -24,3 +24,6 @@ nav_order: 1
 ## sub-10
 ![ratingtimeseries-sub10](figs/rating-timeseries-sub10.png)
 
+## First time when they moved the slider
+![first-move](figs/rating-timeseries-first-move.png)
+
