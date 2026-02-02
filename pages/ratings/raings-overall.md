@@ -1,7 +1,7 @@
 ---
 title: Overall ratings
 layout: page
-parent: Behavioural ratings
+parent: Self-report ratings
 nav_order: 2
 ---
 
