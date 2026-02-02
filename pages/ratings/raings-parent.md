@@ -1,5 +1,5 @@
 ---
-title: Selfreport ratings
+title: Behavioural ratings
 layout: page
 nav_order: 4
 has_children: true
