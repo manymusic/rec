@@ -1,7 +1,7 @@
 ---
 title: Overall ratings
 layout: page
-parent: Self-report ratings
+parent: Selfreport ratings
 nav_order: 2
 ---
 
