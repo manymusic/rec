@@ -1,7 +1,7 @@
 ---
 title: Liking timeseries
 layout: page
-parent: Behavioural ratings
+parent: Self-report ratings
 nav_order: 1
 ---
 
