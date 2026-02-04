@@ -159,3 +159,97 @@ parent: Regressing EXG out
 ![figs/sub-01_ses05_run09.png](figs/sub-01_ses05_run09.png)
 
 ### sub-01_ses-05_run-10
+![figs/sub-01_ses05_run10.png](figs/sub-01_ses05_run10.png)
+
+### sub-01_ses-05_run-11
+![figs/sub-01_ses05_run11.png](figs/sub-01_ses05_run11.png)
+
+## sub-01_ses-06
+### sub-01_ses-06_run-01
+![figs/sub-01_ses06_run01.png](figs/sub-01_ses06_run01.png)
+
+### sub-01_ses-06_run-02
+![figs/sub-01_ses06_run02.png](figs/sub-01_ses06_run02.png)
+
+### sub-01_ses-06_run-03
+![figs/sub-01_ses06_run03.png](figs/sub-01_ses06_run03.png)
+
+### sub-01_ses-06_run-04
+![figs/sub-01_ses06_run04.png](figs/sub-01_ses06_run04.png)
+
+### sub-01_ses-06_run-05
+![figs/sub-01_ses06_run05.png](figs/sub-01_ses06_run05.png)
+
+### sub-01_ses-06_run-06
+![figs/sub-01_ses06_run06.png](figs/sub-01_ses06_run06.png)
+
+### sub-01_ses-06_run-07
+![figs/sub-01_ses06_run07.png](figs/sub-01_ses06_run07.png)
+
+### sub-01_ses-06_run-08
+![figs/sub-01_ses06_run08.png](figs/sub-01_ses06_run08.png)
+
+### sub-01_ses-06_run-09
+![figs/sub-01_ses06_run09.png](figs/sub-01_ses06_run09.png)
+
+### sub-01_ses-06_run-10
+![figs/sub-01_ses06_run10.png](figs/sub-01_ses06_run10.png)
+
+### sub-01_ses-06_run-11
+![figs/sub-01_ses06_run11.png](figs/sub-01_ses06_run11.png)
+
+### sub-01_ses-06_run-12
+![figs/sub-01_ses06_run12.png](figs/sub-01_ses06_run12.png)
+
+### sub-01_ses-06_run-13
+![figs/sub-01_ses06_run13.png](figs/sub-01_ses06_run13.png)
+
+### sub-01_ses-06_run-14
+![figs/sub-01_ses06_run14.png](figs/sub-01_ses06_run14.png)
+
+## sub-01_ses-07
+### sub-01_ses-07_run-01
+![figs/sub-01_ses07_run01.png](figs/sub-01_ses07_run01.png)
+
+### sub-01_ses-07_run-02
+![figs/sub-01_ses07_run02.png](figs/sub-01_ses07_run02.png)
+
+### sub-01_ses-07_run-03
+![figs/sub-01_ses07_run03.png](figs/sub-01_ses07_run03.png)
+
+### sub-01_ses-07_run-04
+![figs/sub-01_ses07_run04.png](figs/sub-01_ses07_run04.png)
+
+### sub-01_ses-07_run-05
+![figs/sub-01_ses07_run05.png](figs/sub-01_ses07_run05.png)
+
+### sub-01_ses-07_run-06
+![figs/sub-01_ses07_run06.png](figs/sub-01_ses07_run06.png)
+
+### sub-01_ses-07_run-07
+![figs/sub-01_ses07_run07.png](figs/sub-01_ses07_run07.png)
+
+### sub-01_ses-07_run-08
+![figs/sub-01_ses07_run08.png](figs/sub-01_ses07_run08.png)
+
+### sub-01_ses-07_run-09
+![figs/sub-01_ses07_run09.png](figs/sub-01_ses07_run09.png)
+
+### sub-01_ses-07_run-10
+![figs/sub-01_ses07_run10.png](figs/sub-01_ses07_run10.png)
+
+### sub-01_ses-07_run-11
+![figs/sub-01_ses07_run11.png](figs/sub-01_ses07_run11.png)
+
+### sub-01_ses-07_run-12
+![figs/sub-01_ses07_run12.png](figs/sub-01_ses07_run12.png)
+
+### sub-01_ses-07_run-13
+![figs/sub-01_ses07_run13.png](figs/sub-01_ses07_run13.png)
+
+### sub-01_ses-07_run-14
+![figs/sub-01_ses07_run14.png](figs/sub-01_ses07_run14.png)
+
+### sub-01_ses-07_run-15
+![figs/sub-01_ses07_run15.png](figs/sub-01_ses07_run15.png)
+
