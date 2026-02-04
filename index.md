@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (02-Feb-2026 17:23:47 CE[S]T) progress of the EXG data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (04-Feb-2026 18:36:42 CE[S]T) progress of the EXG data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current recordings
 
