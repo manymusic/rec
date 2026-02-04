@@ -159,8 +159,3 @@ parent: Regressing EXG out
 ![figs/sub-01_ses05_run09.png](figs/sub-01_ses05_run09.png)
 
 ### sub-01_ses-05_run-10
-![figs/sub-01_ses05_run10.png](figs/sub-01_ses05_run10.png)
-
-### sub-01_ses-05_run-11
-![figs/sub-01_ses05_run11.png](figs/sub-01_ses05_run11.png)
-
