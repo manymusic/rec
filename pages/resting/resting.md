@@ -11,3 +11,4 @@ has_children: true
 - [X] Power analysis
 - [X] Microstate analysis
 - [X] Comparison with music listening
+- [ ] Reliability analysis (e.g., test-retest reliability, split-half reliability, etc.)
