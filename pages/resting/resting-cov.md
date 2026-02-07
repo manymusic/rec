@@ -1,7 +1,7 @@
 ---
 title: Covariance matrices
 layout: page
-nav_order: 1
+nav_order: 101
 parent: Resting EEG
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Microstates
 layout: page
-nav_order: 3
+nav_order: 103
 parent: Resting EEG
 ---
 
