@@ -22,4 +22,6 @@ Let's analyse the neurophysiological and motor data as "emotional responses" rat
 - [ ] Motor-beat coherence
 
 # Motor-beat coherence
-[Toiviainen & Carlson (2021)](https://doi.org/10.1525/mp.2022.39.3.249) proposed a wavelet tensor decomposition to analyse motion-capture data acquired during spontaneous dance to musical excerpts.
+* [Toiviainen & Carlson (2021)](https://doi.org/10.1525/mp.2022.39.3.249) proposed a wavelet tensor decomposition to analyse motion-capture data acquired during spontaneous dance to musical excerpts. *[BUT DO I NEED IT?]*
+
+* 
