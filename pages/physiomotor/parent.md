@@ -19,11 +19,11 @@ Let's analyse the neurophysiological and motor data as "emotional responses" rat
 
 ## TODOs
 - [ ] Neurokit2 preprocessing
-- [ ] Motor-beat coherence
+- [X] Motor-beat coherence with tempoCNN (but not too convincing)
+- [ ] Jerk beat contrast + BEAT-IT!
 
 # Motor-beat coherence
 * [Toiviainen & Carlson (2021)](https://doi.org/10.1525/mp.2022.39.3.249) proposed a wavelet tensor decomposition to analyse motion-capture data acquired during spontaneous dance to musical excerpts. *[BUT DO I NEED IT?]*
 
-* [Ito et al. (2022)](https://doi.org/10.1126/sciadv.abo7019) showed spontaneous beat synchronization in rats using "jerk (dA/dt) beat contrast". This time-based methods requires a beat annotation. (but frequency tagging also needs a tempo estimation, and the assumption of constant tempo).
-
+* [Ito et al. (2022)](https://doi.org/10.1126/sciadv.abo7019) showed spontaneous beat synchronization in rats using "jerk (dA/dt) beat contrast". This time-based methods requires a beat annotation. (but frequency tagging also needs a tempo estimation, and the assumption of constant tempo). *[HMMPH!]*
 
