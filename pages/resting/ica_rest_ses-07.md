@@ -41,4 +41,10 @@ parent: Resting EEG
 ![figs/sub-09_ses07_run-rest-eyes-closed.png](figs/sub-09_ses07_run-rest-eyes-closed.png)
 
 # sub-10_ses-07
+## sub-10_ses-07_run-rest-eyes-open
+![figs/sub-10_ses07_run-rest-eyes-open.png](figs/sub-10_ses07_run-rest-eyes-open.png)
+
+## sub-10_ses-07_run-rest-eyes-closed
+![figs/sub-10_ses07_run-rest-eyes-closed.png](figs/sub-10_ses07_run-rest-eyes-closed.png)
+
 <small>Max IC-Label classificiation probability (except for HEART) for each IC. *Bra*: Brain, *Mus*: Muscle, *Lin*: Line, *Cha*: Channel, *Oth*: Other. *RED*: P>.90, *BLUE*: Manual-BAD, *GREEN*: Manual-GOOD</small>
