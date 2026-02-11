@@ -90,3 +90,7 @@ parent: Artefact mapping
 
 ![rsqaure-0042](figs/sub-10_ses-06_movr2max.png)
 
+![rsqaure-0043](figs/sub-10_ses-07_movr2max.png)
+
+![rsqaure-0044](figs/sub-10_ses-08_movr2max.png)
+
