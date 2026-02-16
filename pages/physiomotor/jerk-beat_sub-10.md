@@ -1,5 +1,5 @@
 ---
-title:Jerk contrast calculation: sub-10
+title: Jerk contrast calculation: sub-10
 layout: page
 nav_order: 10
 has_children: true
