@@ -12,3 +12,21 @@ parent: Physiomotor responses
 ## sub-03_ses-02
 ![figs/jerkcalc_sub-03_ses-02.png](figs/jerkcalc_sub-03_ses-02.png)
 
+## sub-03_ses-03
+![figs/jerkcalc_sub-03_ses-03.png](figs/jerkcalc_sub-03_ses-03.png)
+
+## sub-03_ses-04
+![figs/jerkcalc_sub-03_ses-04.png](figs/jerkcalc_sub-03_ses-04.png)
+
+## sub-03_ses-05
+![figs/jerkcalc_sub-03_ses-05.png](figs/jerkcalc_sub-03_ses-05.png)
+
+## sub-03_ses-06
+![figs/jerkcalc_sub-03_ses-06.png](figs/jerkcalc_sub-03_ses-06.png)
+
+## sub-03_ses-07
+![figs/jerkcalc_sub-03_ses-07.png](figs/jerkcalc_sub-03_ses-07.png)
+
+## sub-03_ses-08
+![figs/jerkcalc_sub-03_ses-08.png](figs/jerkcalc_sub-03_ses-08.png)
+

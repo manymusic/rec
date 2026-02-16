@@ -27,3 +27,6 @@ parent: Physiomotor responses
 ## sub-02_ses-07
 ![figs/jerkcalc_sub-02_ses-07.png](figs/jerkcalc_sub-02_ses-07.png)
 
+## sub-02_ses-08
+![figs/jerkcalc_sub-02_ses-08.png](figs/jerkcalc_sub-02_ses-08.png)
+
