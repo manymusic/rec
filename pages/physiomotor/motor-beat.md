@@ -1,7 +1,7 @@
 ---
-title:Motor-beat coherence 
+title: Motor-beat coherence 
 layout: page
-nav_order: 1
+nav_order: 0
 parent: Physiomotor responses
 ---
 
