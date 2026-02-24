@@ -15,3 +15,7 @@ has_children: true
 ![art-04](figs/artefacts_ses-04.png)
 <small>Note that each channel is individually scaled.</small>
 
+## Session-08
+![art-08](figs/artefacts_ses-08.png)
+<small>Note that each channel is individually scaled.</small>
+
