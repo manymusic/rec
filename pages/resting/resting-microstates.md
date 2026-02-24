@@ -12,6 +12,9 @@ parent: Resting EEG
 ## sub-01_ses07
 ![figs/ms4_sub-01_ses-07.png](figs/ms4_sub-01_ses-07.png)
 
+## sub-01_ses10
+![figs/ms4_sub-01_ses-10.png](figs/ms4_sub-01_ses-10.png)
+
 ## sub-02_ses03
 ![figs/ms4_sub-02_ses-03.png](figs/ms4_sub-02_ses-03.png)
 
