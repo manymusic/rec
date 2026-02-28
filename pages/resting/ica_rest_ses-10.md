@@ -13,6 +13,12 @@ parent: Resting EEG
 ![figs/sub-01_ses10_run-rest-eyes-closed.png](figs/sub-01_ses10_run-rest-eyes-closed.png)
 
 # sub-02_ses-10
+## sub-02_ses-10_run-rest-eyes-open
+![figs/sub-02_ses10_run-rest-eyes-open.png](figs/sub-02_ses10_run-rest-eyes-open.png)
+
+## sub-02_ses-10_run-rest-eyes-closed
+![figs/sub-02_ses10_run-rest-eyes-closed.png](figs/sub-02_ses10_run-rest-eyes-closed.png)
+
 # sub-03_ses-10
 ## sub-03_ses-10_run-rest-eyes-open
 ![figs/sub-03_ses10_run-rest-eyes-open.png](figs/sub-03_ses10_run-rest-eyes-open.png)
