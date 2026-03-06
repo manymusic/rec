@@ -19,6 +19,8 @@ parent: Trackball tracing
 ![figs/acc_sub-07_ses11.png](figs/acc_sub-07_ses11.png)
 ## sub-09_ses-09
 ![figs/acc_sub-09_ses09.png](figs/acc_sub-09_ses09.png)
+## sub-09_ses-11
+![figs/acc_sub-09_ses11.png](figs/acc_sub-09_ses11.png)
 ## sub-10_ses-09
 ![figs/acc_sub-10_ses09.png](figs/acc_sub-10_ses09.png)
 ## sub-10_ses-11
