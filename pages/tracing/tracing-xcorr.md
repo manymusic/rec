@@ -12,6 +12,9 @@ parent: Trackball tracing
 ## sub-02_ses-09
 ![figs/xcorr_sub-02_ses09.png](figs/xcorr_sub-02_ses09.png)
 <small>EEG time and PTB time have not been synchronsed here!</small>
+## sub-02_ses-11
+![figs/xcorr_sub-02_ses11.png](figs/xcorr_sub-02_ses11.png)
+<small>EEG time and PTB time have not been synchronsed here!</small>
 ## sub-03_ses-09
 ![figs/xcorr_sub-03_ses09.png](figs/xcorr_sub-03_ses09.png)
 <small>EEG time and PTB time have not been synchronsed here!</small>
