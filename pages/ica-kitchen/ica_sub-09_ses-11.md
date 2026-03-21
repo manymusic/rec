@@ -16,6 +16,9 @@ parent: ica_sub-09
 ## sub-09_ses-11_run-03
 ![figs/sub-09_ses-11_run-03.png](figs/sub-09_ses-11_run-03.png)
 
+## sub-09_ses-11_run-04
+![figs/sub-09_ses-11_run-04.png](figs/sub-09_ses-11_run-04.png)
+
 ## sub-09_ses-11_run-05
 ![figs/sub-09_ses-11_run-05.png](figs/sub-09_ses-11_run-05.png)
 
