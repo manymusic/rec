@@ -16,10 +16,11 @@ Here, the current (20-Mar-2026 17:33:21 `Europe/Berlin`) progress of the EXG dat
 ![emo-ridge](figs/emo-ridges.png)
 
 <small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know). At the bottom, subject-wise Z-scored values are plotted (i.e., the average across all sources within a subject is zero).*jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>
+
 ## Average channel goodness percentages
 
 ![recordings](figs/avg-isgood.png)
-<br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" cahnnels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
+<br><small>Percentages of "GOOD" runs for each channel are plotted. *EEG*: "BAD" channels were identified by EEGLAB/CLEAN_ARTIFACTS(). *EXG*: "BAD" channels were identified by value ranges (and expected peak frequencies for RESP & PULSE).</small>
 
 
 ## Channel goodness per session

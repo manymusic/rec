@@ -9,6 +9,23 @@ I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you rep
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
+## How could the Stimtrak come 4-8 seconds after the trigger? 🐌
+Updated: 2026-03-22
+
+We knew that the Stimtrak signal comes a little (~150 ms) later than the sound trigger. This is because I've been using a Psychtoolbox version that doesn't support a direct FireFace interface. However, the delay can be accurately (with a tolerance of ~1 ms) captured by the Stimtrak, which feeds an analogue copy of the audio signal to the EEG recording amplifier.
+
+But recently, in two runs, we saw enormous delays (4000 ms and 8000 ms). So, we are trying to figure out *what went wrong* and *whether these two runs are still usable*.
+
+### What went wrong?
+The PTB script and the sound files seem to okay because this delay was unable to reproduce (but for real?)
+
+- [ ] Run a test recording
+
+### Are these still usable?
+
+
+
+
 ## Why does the ARS flag FC1/2 as BAD in some participants, consistently across sessions? 😵
 Updated: 2026-01-21
 
