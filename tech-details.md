@@ -3,7 +3,7 @@ title: Technical details
 layout: page
 nav_order: 100
 ---
-# Very trivial technical details (just in case 🤓)
+# Very trivial technical details 🤓
 
 ## General information
 - Location: EEG LAB #1, Max Planck Institute for Empirical Aesthetics.
@@ -17,7 +17,7 @@ nav_order: 100
 
 ## Stimulus Presentation System
 ### PC
-- Computer: Fujitsu CELSIUS M740B (Intel Xeon ES-1620 v4 3.5 GHz, 16 GB RAM, 
+- Computer: Fujitsu CELSIUS M740B (Intel Xeon ES-1620 v4 3.5 GHz, 16 GB RAM)
 - Trigger port: LPT3 (0xDFF8)
 - OS: Windows 10 Pro (Enterprise LTSC)
 - Software: Psychtoolbox-3.0.19.16 (MATLAB R2024b) <https://github.com/Psychtoolbox-3/Psychtoolbox-3/releases/tag/3.0.19.16>
@@ -25,60 +25,60 @@ nav_order: 100
 ### Video
 - Video card: ASUS ROG STRIX-GTX1050-O2G-GAMING (GDDR5 2 GB, r. 2016)
 
-- In-chamber monitor: XL2402Z (BenQ, Taipei), 24-inch, 1920 x 1080 pixels^2, 91 ppi, W-LED, viewing angles = 170/160 degrees [H/V], brightness = 350 cd/m^2, refresh rate = 24--144 Hz, min response time = 1 ms
+- In-chamber monitor: XL2402Z (BenQ, Taipei, TW), 24-inch, 1920 x 1080 pixels^2, 91 ppi, W-LED, viewing angles = 170/160 degrees [H/V], brightness = 350 cd/m^2, refresh rate = 24--144 Hz, min response time = 1 ms
 
 ### Audio
-- Sound card: FireFace UCX (RME Audio) (connected via USB 2.0).
+- Sound card: FireFace UCX (RME Audio, DE), connected via USB 2.0
 
-- Software mixer: TotalMix FX (RME Audio)
+- Software mixer: TotalMix FX (RME Audio, DE)
 
-- In-chamber loudspeakers: Neumann KH 120 A (studio monitors; frequency range = 52 Hz – 21 kHz (+/- 3 dB), maximum output = 112.2 dB SPL, 50 watt power)
+- In-chamber loudspeakers: KH120A studio monitors (Georg Neumann GmbH, DE), frequency range = 52 Hz – 21 kHz (+/- 3 dB), maximum output = 112.2 dB SPL, 50 watt power
 
 
 ### User input
-- Trackball mouse: Expert Mouse (Kensington), wired, USB,4 bottons + scroll ring; 1000 DPI; black and blue colours.
+- Trackball mouse: Expert Mouse (Kensington Computer Products Group, USA), wired, USB, 4 bottons and a scroll ring, 1000 DPI, black and blue colours
 
 ### Network
-- No internet, only the central intranet accessing the project disks ("P-drive") in the Windows file server.
+- No internet, only the central intranet to access the project disks ("P-drive") in the Windows file server
 
 
 ## EEG system
 ### Electrodes
-- 32-channel active electrode system (actiCAP-snap), Brain Products GmbH (Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/acticap/>
+- ActiCAP-snap 32-channel active electrodes (Brain Products GmbH). <https://www.brainproducts.com/solutions/acticap/>
   - Electrode type: active gel electrode with Ag/AgCl (silver/silver chloride) pellet
   - Electrode diameter: ~5.5 mm (snap holder: 2 mm)
   - Dynamic range: ± 1000 mV
 
 
 ### Amplifier
-- 2x BrainAmp DC (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/brainamp/>
+- 2x BrainAmp DC (Brain Products GmbH). <https://www.brainproducts.com/solutions/brainamp/>
   - Number of channels: 32
   - Sampling rate: 1000 Hz
 
-- Powered by 3x PowerPack rechargeable battery kits (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
+- Powered by 3x PowerPack rechargeable battery kits (Brain Products GmbH).
 
 ### Control box
 - ActiCAP ControlBox II (BrainProducts; r. 2011): controlling and powering active electrode units.
 
 
 ### EEG cap
-- Easycap EEG Recording Cap (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). 
+- Easycap EEG Recording Cap (Brain Products GmbH). 
   - Cap type: Subtemporal
   - Cap cut: C-cut (Caucasian cut) [cf, A-cut: Asian cut for round heads]
   - Cap fabrics: High Precision (adults)
   - Cap sizes: 54, 56, 60 cm (circumference)
 
-- Braiding style: 2 pig-tails (instead of 4-tails).
+- EEG wire braiding style: 2 pigtails (instead of 4 pigtails).
 
 
 ### Impedance check system
 - Target impedance: < 25 kOhm (as recommended by Brain Products GmbH for the actiCAP-snap system).
 
-- Software: BrainVision actiCAP Control Software (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#acticap-control-software>
+- Software: BrainVision actiCAP Control Software (Brain Products GmbH). <https://www.brainproducts.com/downloads/more-software/#acticap-control-software>
 
 ### Acquisition software
 
-- BrainVsion Recorder (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#brainvision-recorder>
+- BrainVision Recorder (Brain Products GmbH). <https://www.brainproducts.com/downloads/more-software/#brainvision-recorder>
 
 ### Consumables
 - Gel
@@ -108,7 +108,7 @@ nav_order: 100
 - StimTrack (Brain Products GmbH):
 
 ### Amplifier
-- 1x BrainAmp ExG (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
+- 1x BrainAmp ExG (Brain Products GmbH).
   - 16 bipolar channels
   - 2 bipolar ground channels
   - 8 auxiliary channels
