@@ -10,28 +10,36 @@ nav_order: 100
 - Address: Grüneburgweg 14, 60322 Frankfurt am Main, Germany.
 - Acquisition period: 2025-11-12 to 2026-04-XX.
 
-## Chamber
-- Booth: IAC (Industrial Acoustics Company) Acoustics (Germany office: IAC GmbH, Mönchengladbach), two-wall Electrically Shielded Metal Booth, 2.53 m x 2.73 m, complying ISO 8253 standard (Acoustics—Audiometric test methods) <https://www.iacacoustics.global/audiology-test-rooms/audiology-booths/>
+## EEG Chamber
+- Booth: IAC Acoustics (IAC already stands for   Industrial Acoustics Company; Germany office: IAC GmbH, Mönchengladbach), two-wall Electrically Shielded Metal Booth, 2.53 m x 2.73 m, complying ISO 8253 standard (Acoustics—Audiometric test methods) <https://www.iacacoustics.global/audiology-test-rooms/audiology-booths/>
 - Air conditioning (not working during the recordings!)
 - Lighting: dimmable LED spotlight (GU5.3 MR16 7.5W 621 lm 3000K, dimmable down to 10% without flickering)
 
-## Stimulus presentation system
+## Stimulus Presentation System
 ### PC
-- Computer: Fujitsu CELSIUS M740B (Intel Xeon ES-1620 v4 3.5 GHz, 16 GB RAM, ASUS ROG STRIX-GTX1050-O2G-GAMING)
+- Computer: Fujitsu CELSIUS M740B (Intel Xeon ES-1620 v4 3.5 GHz, 16 GB RAM, 
 - Trigger port: LPT3 (0xDFF8)
 - OS: Windows 10 Pro (Enterprise LTSC)
 - Software: Psychtoolbox-3.0.19.16 (MATLAB R2024b) <https://github.com/Psychtoolbox-3/Psychtoolbox-3/releases/tag/3.0.19.16>
 
 ### Video
-- In-chamber monitor: BenQ XL2402Z (24-inch, 1920 x 1080 pixels^2, 91 ppi, W-LED, viewing angles = 170/160 degrees [H/V], brightness = 350 cd/m^2, refresh rate = 24--144 Hz, min response time = 1 ms)
+- Video card: ASUS ROG STRIX-GTX1050-O2G-GAMING (GDDR5 2 GB, r. 2016)
+
+- In-chamber monitor: XL2402Z (BenQ, Taipei), 24-inch, 1920 x 1080 pixels^2, 91 ppi, W-LED, viewing angles = 170/160 degrees [H/V], brightness = 350 cd/m^2, refresh rate = 24--144 Hz, min response time = 1 ms
 
 ### Audio
-- Sound card: RME FireFace UCX (connected via USB 2.0).
-- In-chamber speakers: Neumann KH 120 A (studio monitors; frequency range = 52 Hz – 21 kHz (+/- 3 dB), maximum output = 112.2 dB SPL, 50 watt power)
-- Sound interface: TotalMix FM
+- Sound card: FireFace UCX (RME Audio) (connected via USB 2.0).
 
-### User interface
-- Trackball mouse: Kensington Expert Mouse (wired, USB; 4 bottons + scroll ring; 1000 DPI; black and blue)
+- Software mixer: TotalMix FX (RME Audio)
+
+- In-chamber loudspeakers: Neumann KH 120 A (studio monitors; frequency range = 52 Hz – 21 kHz (+/- 3 dB), maximum output = 112.2 dB SPL, 50 watt power)
+
+
+### User input
+- Trackball mouse: Expert Mouse (Kensington), wired, USB,4 bottons + scroll ring; 1000 DPI; black and blue colours.
+
+### Network
+- No internet, only the central intranet accessing the project disks ("P-drive") in the Windows file server.
 
 
 ## EEG system
@@ -43,18 +51,18 @@ nav_order: 100
 
 
 ### Amplifier
-- 2x BrainAmp (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/brainamp/>
+- 2x BrainAmp DC (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/brainamp/>
   - Number of channels: 32
   - Sampling rate: 1000 Hz
-
-
 
 - Powered by 3x PowerPack rechargeable battery kits (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
 
 ### Control box
+- ActiCAP ControlBox II (BrainProducts; r. 2011): controlling and powering active electrode units.
+
 
 ### EEG cap
-- Easycap EEG Recording Cap (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/easycap-eeg-recording-cap/>
+- Easycap EEG Recording Cap (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). 
   - Cap type: Subtemporal
   - Cap cut: C-cut (Caucasian cut) [cf, A-cut: Asian cut for round heads]
   - Cap fabrics: High Precision (adults)
@@ -65,9 +73,12 @@ nav_order: 100
 
 ### Impedance check system
 - Target impedance: < 25 kOhm (as recommended by Brain Products GmbH for the actiCAP-snap system).
-- Software: BrainVision Acticap Control Software (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#acticap-control-software>
+
+- Software: BrainVision actiCAP Control Software (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#acticap-control-software>
 
 ### Acquisition software
+
+- BrainVsion Recorder (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#brainvision-recorder>
 
 ### Consumables
 - Gel
@@ -75,11 +86,6 @@ nav_order: 100
 - Syringe
 
 - Needle
-
-
-
-
-
 
 
 ## EXG system
@@ -99,6 +105,8 @@ nav_order: 100
 
 - Photo Sensor (Brain Products GmbH): 
 
+- StimTrack (Brain Products GmbH):
+
 ### Amplifier
 - 1x BrainAmp ExG (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
   - 16 bipolar channels
@@ -109,7 +117,7 @@ nav_order: 100
 ### Consumables
 - NuPrep Skin Prep Gel (Walter)
 
-- Disinfectant alcohol
+- Disinfectant: 70% isopropyl alcohol
 
 - Cotton swabs
 
@@ -120,3 +128,5 @@ nav_order: 100
 - Adhesive rings for ring electrodes (3M?)
 
 - Pre-gelled Disposable Ag/AgCl Electrodes (???)
+
+- 
