@@ -43,8 +43,13 @@ nav_order: 100
 
 
 ### Amplifier
+- 2x BrainAmp (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/solutions/brainamp/>
+  - Number of channels: 32
+  - Sampling rate: 1000 Hz
 
-### Battery pack
+
+
+- Powered by 3x PowerPack rechargeable battery kits (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
 
 ### Control box
 
@@ -55,32 +60,63 @@ nav_order: 100
   - Cap fabrics: High Precision (adults)
   - Cap sizes: 54, 56, 60 cm (circumference)
 
-- Thread style: pig-tails (instead of 4-tails) for better comfort and less tangling of wires.
+- Braiding style: 2 pig-tails (instead of 4-tails).
 
-### Electrode gel
 
 ### Impedance check system
 - Target impedance: < 25 kOhm (as recommended by Brain Products GmbH for the actiCAP-snap system).
+- Software: BrainVision Acticap Control Software (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching). <https://www.brainproducts.com/downloads/more-software/#acticap-control-software>
 
 ### Acquisition software
+
+### Consumables
+- Gel
+
+- Syringe
+
+- Needle
+
+
+
+
+
 
 
 ## EXG system
 
-### Ring electrodes
+### Electrodes & Sensors
+- Multirode ring electrode B18 (EaseyCap?): Ag/AgCl 
+
+- 3D Acceleration Sensor (Brain Products GmbH): range = ±2 g, output = 1400 mV, gain = 1450 mV/g ± 10%, dimensions = 22 x 14 x 8 mm^3, weight = 8 g.
+
+- GSR Sensor (Brain Products GmbH): constant = 0.5 V, measurement range = 1–100 µS, gain = 25 mV/µS, output range = 0.01–4.71 V, dimensions = 15 x 36 x 36 mm^3, weight = 30 g.
+
+- Respiration Belt (Brain Products GmbH):
 
 
-### Breathing belt
-- Brain Producuts
-
-### Electrodermal activity (EDA; or skin conductance response, SCR) electrodes
-- ???
-
-### Pulse oximeter (photoplethysmography, PPG)
-- ???
+- Blood Pulse Sensor (Brain Products GmbH):
 
 
-### EXG amplifier
+- Photo Sensor (Brain Products GmbH): 
 
+### Amplifier
+- 1x BrainAmp ExG (Brain Products GmbH, Germany office: Brain Products GmbH, Gilching).
+  - 16 bipolar channels
+  - 2 bipolar ground channels
+  - 8 auxiliary channels
+  - DC recording is possible (i.e., no high-pass filter)
 
+### Consumables
+- NuPrep Skin Prep Gel (Walter)
 
+- Disinfectant alcohol
+
+- Cotton swabs
+
+- Cotton pads
+
+- Disposable gloves
+
+- Adhesive rings for ring electrodes (3M?)
+
+- Pre-gelled Disposable Ag/AgCl Electrodes (???)
