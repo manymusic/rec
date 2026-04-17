@@ -18,4 +18,7 @@ parent: Resting EEG
 ## Resting runs and the reference music rating run in Session 14
 ![figs/powspec-ses14.png](figs/powspec-ses14.png)
 
+## Resting runs and the reference music rating run in Session 17
+![figs/powspec-ses17.png](figs/powspec-ses17.png)
+
 <small>Delta=[1, 4] Hz, Theta=[4, 8] Hz, Alpha=[8, 12] Hz, Beta=[12, 30] Hz, Gamma=[30, 45] Hz; **Eyes open**: 3-min resting while listening to pink noise with eyes open and fixating on a cross; **Eyes closed**: 3-min resting while listening to pink noise with eyes closed; **Bohemian**: 6-min rating of Liking/Disliking with a slider.</small>
