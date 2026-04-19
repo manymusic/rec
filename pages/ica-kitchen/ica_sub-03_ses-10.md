@@ -43,3 +43,4 @@ parent: ica_sub-03
 ## sub-03_ses-10_run-12
 ![figs/sub-03_ses-10_run-12.png](figs/sub-03_ses-10_run-12.png)
 
+<small>Max IC-Label classificiation probability (except for HEART) for each IC. *Bra*: Brain, *Mus*: Muscle, *Lin*: Line, *Cha*: Channel, *Oth*: Other. *RED*: P>.90, *BLUE*: Manual-BAD, *GREEN*: Manual-GOOD</small>
