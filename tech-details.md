@@ -81,17 +81,15 @@ nav_order: 100
 - BrainVision Recorder (Brain Products GmbH). <https://www.brainproducts.com/downloads/more-software/#brainvision-recorder>
 
 ### Consumables
-- Gel
+- SuperVisc (Easycap GmbH): highViscosity Electrolyte-Gel for Active Electrodes
 
-- Syringe
-
-- Needle
+- Syringe & blunt needle: 
 
 
 ## EXG system
 
 ### Electrodes & Sensors
-- Multirode ring electrode B18 (EaseyCap?): Ag/AgCl 
+- Multirode ring electrode B18 (Easycap GmbH): Ag/AgCl 
 
 - 3D Acceleration Sensor (Brain Products GmbH): range = ±2 g, output = 1400 mV, gain = 1450 mV/g ± 10%, dimensions = 22 x 14 x 8 mm^3, weight = 8 g.
 
@@ -127,6 +125,9 @@ nav_order: 100
 
 - Adhesive rings for ring electrodes (3M?)
 
-- Pre-gelled Disposable Ag/AgCl Electrodes (???)
+- ECG adhesive rings for children (20 mm x 8 mm)
+
+- Kendall ECG Ag/AgCl Electrode (H135SG; CardinalHelth), 43 mm x 35 mm, with snap connector
+
 
 - 
