@@ -14,7 +14,19 @@ parent: Resting EEG
 
 # sub-02_ses-17
 # sub-03_ses-17
+## sub-03_ses-17_run-rest-eyes-open
+![figs/sub-03_ses17_run-rest-eyes-open.png](figs/sub-03_ses17_run-rest-eyes-open.png)
+
+## sub-03_ses-17_run-rest-eyes-closed
+![figs/sub-03_ses17_run-rest-eyes-closed.png](figs/sub-03_ses17_run-rest-eyes-closed.png)
+
 # sub-07_ses-17
+## sub-07_ses-17_run-rest-eyes-open
+![figs/sub-07_ses17_run-rest-eyes-open.png](figs/sub-07_ses17_run-rest-eyes-open.png)
+
+## sub-07_ses-17_run-rest-eyes-closed
+![figs/sub-07_ses17_run-rest-eyes-closed.png](figs/sub-07_ses17_run-rest-eyes-closed.png)
+
 # sub-09_ses-17
 ## sub-09_ses-17_run-rest-eyes-open
 ![figs/sub-09_ses17_run-rest-eyes-open.png](figs/sub-09_ses17_run-rest-eyes-open.png)

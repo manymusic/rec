@@ -137,6 +137,16 @@ Zero-lag correlation after preprocessing
 ### 6-min emotion rating (a horizontal slider) while listening to Bohemian Rhapsody
 ![figs/cov-sub-03_ses14_run-09_clean.png](figs/cov-sub-03_ses14_run-09_clean.png)
 
+## sub-03_ses-17
+### 3-min resting while listening to pinknoise with eyes open
+![figs/cov-sub-03_ses17_run-rest-eyes-open_clean.png](figs/cov-sub-03_ses17_run-rest-eyes-open_clean.png)
+
+### 3-min resting while listening to pinknoise with eyes closed
+![figs/cov-sub-03_ses17_run-rest-eyes-closed_clean.png](figs/cov-sub-03_ses17_run-rest-eyes-closed_clean.png)
+
+### 6-min emotion rating (a horizontal slider) while listening to Bohemian Rhapsody
+![figs/cov-sub-03_ses17_run-09_clean.png](figs/cov-sub-03_ses17_run-09_clean.png)
+
 ## sub-07_ses-03
 ### 3-min resting while listening to pinknoise with eyes open
 ![figs/cov-sub-07_ses03_run-rest-eyes-open_clean.png](figs/cov-sub-07_ses03_run-rest-eyes-open_clean.png)
@@ -176,6 +186,16 @@ Zero-lag correlation after preprocessing
 
 ### 6-min emotion rating (a horizontal slider) while listening to Bohemian Rhapsody
 ![figs/cov-sub-07_ses14_run-14_clean.png](figs/cov-sub-07_ses14_run-14_clean.png)
+
+## sub-07_ses-17
+### 3-min resting while listening to pinknoise with eyes open
+![figs/cov-sub-07_ses17_run-rest-eyes-open_clean.png](figs/cov-sub-07_ses17_run-rest-eyes-open_clean.png)
+
+### 3-min resting while listening to pinknoise with eyes closed
+![figs/cov-sub-07_ses17_run-rest-eyes-closed_clean.png](figs/cov-sub-07_ses17_run-rest-eyes-closed_clean.png)
+
+### 6-min emotion rating (a horizontal slider) while listening to Bohemian Rhapsody
+![figs/cov-sub-07_ses17_run-09_clean.png](figs/cov-sub-07_ses17_run-09_clean.png)
 
 ## sub-09_ses-03
 ### 3-min resting while listening to pinknoise with eyes open
