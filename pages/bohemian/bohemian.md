@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # Reliability check using Bohemian Rhapsody
-Updated: 04-May-2026 20:09:53
+Updated: 23-Sep-2026 07:17:03
 ## Inter-run correlation in overall ratings and liking timeseries
 ![corr-mtx](figs/bohemian.png)
 
